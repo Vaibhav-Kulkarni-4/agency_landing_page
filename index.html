@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ditto Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<!-- Latest compiled and minified JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	
+	<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+		
+</head>
+<body>
+	
+	<div class="row" style="    padding: 1% 1% 8% 1% !important; background: url('BackgroundNormal.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+		
+	<nav class="navbar navbar-default" style="background-color: none !important;border-color: none!important; font-family: 'Source Sans Pro', sans-serif;">
+		
+			<div class="row">
+
+		<!-- <center>	 -->
+
+<a class="navbar-brand" style="color: white; display: inline-block !important; margin-left: 2% !important;">
+				<img src="IconNormal.png" width="50" height="35" alt="Logo" style="display: inline-block !important;">
+				&nbsp;MartaUP
+			</a>
+<div class="col-md-offset-1 col-md-5" style="display: inline-block;">
+			
+				<ul class="nav navbar-nav">
+					<li><a href="#" style="color: white;">Home</a></li>
+					<li><a href="#" style="color: white;">Work</a></li>
+					<li><a href="#" style="color: white;">About</a></li>
+					<li><a href="contact.html" style="color: white;">Contact</a></li>
+				</ul>
+			</div>
+			<!-- </center> -->
+			<div class="col-md-offset-1 col-md-3" style="display: inline-block;">
+			
+			<nav class="nav navbar-default" style="background-color: none !important;border-color: none!important; font-family: 'Source Sans Pro', sans-serif;">
+				<ul class="nav navbar-nav">
+					<li><a href="#" style="color: white;">Login</a></li>
+					<li><a href="#" style="color: #250f8a;" id="button">SignUp</a></li>	
+				</ul>
+				</nav>
+			</div>
+		
+			</div>
+		
+		
+	<div class="container" style="margin-bottom: 25%">
+		<p id="weBuildAppsWebsitesforYourBusiness" style="font-family: 'Source Sans Pro', sans-serif;"> We Build  Apps & Websites</p><br>
+		<p id="forstartupsForbusinessesForyou" style="font-family: 'Source Sans Pro', sans-serif;"> For startups, For business & For</p><br>
+		<button id="quote"><a href="#" style="text-decoration: none;font-family: 'Source Sans Pro', sans-serif;">Request a quote</a></button>
+	
+	</div>
+</div>
+	
+	<div class="row">
+		<center><p id="wearespecialisedin" style="clear:left;font-family: 'Source Sans Pro', sans-serif;">We are specialised</p></center><br><br>
+		
+		<div class="row" style="margin-left: 10% !important; margin-right: 10% !important;">
+			<!-- <div class="col-md-3">
+				<img src="StyleNormal.png" alt="Style Image" class="img-responsive" id="style">	
+			</div> -->
+			<div class="col-md-4">
+				<center>
+<!--					<img src="Path%205Normal_1.png" class="im-responsive" style="position: absolute;z-index: 1">-->
+					<img src="IconNormal_2.png" class="img-responsive">
+				<figcaption><b style="font-size: 20px;font-family: 'Source Sans Pro', sans-serif;">UI/UX</b></figcaption>
+				<p style="font-family: 'Source Sans Pro', sans-serif;">A website[1] is a collection of related web pages, including multimedia content, typically identified with a common domain name, and published on at least one web server. Notable examples are wikipedia.org, google.com, and amazon.com.</p>
+			</center>
+			</div>
+			<div class="col-md-4">
+								<center>
+
+				<img src="IconNormal_3.png" alt="Image" class="img-responsive">
+				<figcaption><b style="font-size: 20px;font-family: 'Source Sans Pro', sans-serif;">Web</b></figcaption>
+				<p style="font-family: 'Source Sans Pro', sans-serif;">A website[1] is a collection of related web pages, including multimedia content, typically identified with a common domain name, and published on at least one web server. Notable examples are wikipedia.org, google.com, and amazon.com.</p>
+			</center>
+			</div>
+			<div class="col-md-4">
+								<center>
+
+				<img src="IconNormal_4.png" alt="Image" class="img-responsive">
+				<figcaption><b style="font-size: 20px;font-family: 'Source Sans Pro', sans-serif;">App</b></figcaption>
+				<p style="font-family: 'Source Sans Pro', sans-serif;">A website[1] is a collection of related web pages, including multimedia content, typically identified with a common domain name, and published on at least one web server. Notable examples are wikipedia.org, google.com, and amazon.com.</p>
+			</center>
+			</div>
+		</div>
+	</div>
+		<br><br><br>
+	<div id="threerows">
+		<div class="row" style="margin-left: 5% !important; margin-right: 5% !important;">
+			<div class="col-md-6">
+				<h3><b style="font-family: 'Source Sans Pro', sans-serif;">Experienced designer &</b></h3>
+				<p style="font-family: 'Source Sans Pro', sans-serif;">Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what. An concluded sportsman offending so provision mr education. Bed uncommonly his discovered for estimating far. Equally he minutes my hastily. Up hung mr we give rest half. Painful so he an comfort is manners.</p>
+			</div>
+			<div class="col-md-6">
+				<img src="IconNormal_7.png" class="img-responsive" alt="Image" id="howwework1">
+			</div>
+		</div>
+		
+		<div class="row" style="margin-left: 5% !important; margin-right: 5% !important;">
+			
+			<div class="col-md-6" >
+				<img src="IconNormal_8.png" class="img-responsive" alt="Image" id="howwework2">
+			</div>
+			<div class="col-md-6">
+				<h3><b style="font-family: 'Source Sans Pro', sans-serif;">Information architect &</b></h3>
+				<p style="font-family: 'Source Sans Pro', sans-serif;">Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what. An concluded sportsman offending so provision mr education. Bed uncommonly his discovered for estimating far. Equally he minutes my hastily. Up hung mr we give rest half. Painful so he an comfort is manners.</p>
+			</div>
+		</div>
+		
+		<div class="row" style="margin-left: 5% !important; margin-right: 5% !important;">
+			<div class="col-md-6">
+				<h3><b style="font-family: 'Source Sans Pro', sans-serif;">Idea generation &</b></h3>
+				<p style="font-family: 'Source Sans Pro', sans-serif;">Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what. An concluded sportsman offending so provision mr education. Bed uncommonly his discovered for estimating far. Equally he minutes my hastily. Up hung mr we give rest half. Painful so he an comfort is manners.</p>
+			</div>
+			<div class="col-md-6">
+				<img src="IconNormal_9.png" class="img-responsive" alt="Image" id="howwework3">
+			</div>
+		</div>				
+	</div>
+	
+<div class="row" style="padding: 5% !important; background: url('BackgroundNormal_2.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+
+<div class="col-md-4" id="blockbox1">
+	<center>
+		<div class="transbox">
+				<blockquote id="blockquote1">
+					<p style="font-family: 'Source Sans Pro', sans-serif;">Arakat Bank</p>
+					<footer style="color: #bfb8b8;font-family: 'Source Sans Pro', sans-serif;">International Bank Ltd.</footer>
+					<span class="quotesymbol">&#8221;</span>
+				</blockquote>
+				<p class="blocktext" style="font-family: 'Source Sans Pro', sans-serif;">Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, tablets, desktops/laptops, or other devices. Text messages may be sent over a cellular network, or may also be sent via an Internet connection.
+				</p>
+			</div>
+				</center>
+			</div>
+
+
+			<div class="col-md-4" id="blockbox1">	<center>
+				<div class="transbox">
+
+				<blockquote id="blockquote1">
+					<p style="font-family: 'Source Sans Pro', sans-serif;">Arakat Bank</p>
+					<footer style="color: #bfb8b8;font-family: 'Source Sans Pro', sans-serif;">International Bank Ltd.</footer>
+					<span class="quotesymbol">&#8221;</span>
+				</blockquote>
+				<p class="blocktext" style="font-family: 'Source Sans Pro', sans-serif;">Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, tablets, desktops/laptops, or other devices. Text messages may be sent over a cellular network, or may also be sent via an Internet connection.
+				</p>
+				</div>
+			</center>
+			</div>
+
+			<div class="col-md-4" id="blockbox1">
+					<center>
+						<div class="transbox">
+
+				<blockquote id="blockquote1">
+					<p style="font-family: 'Source Sans Pro', sans-serif;">Arakat Bank</p>
+					<footer style="color: #bfb8b8;font-family: 'Source Sans Pro', sans-serif;">International Bank Ltd.</footer>
+					<span class="quotesymbol">&#8221;</span>
+				</blockquote>
+				<p class="blocktext" style="font-family: 'Source Sans Pro', sans-serif;">Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, tablets, desktops/laptops, or other devices. Text messages may be sent over a cellular network, or may also be sent via an Internet connection.
+				</p>
+				</div>
+			</center>
+			</div>
+		</div>	
+	
+	<div class="row">
+		<div class="container-fluid">
+		<footer id="mainfooter">
+<pre class="footertext" style="font-family: 'Source Sans Pro', sans-serif;">   About MartaUP &emsp;&emsp;&emsp;Help &emsp;&emsp;&emsp; Privacy																			&copy;2018 All Rights Reserved</pre>
+		</footer>
+		</div>
+	</div>
+</body>
+</html>
